@@ -1,5 +1,9 @@
 # Round And Ripe
 
+a small farming and automation game based on the OpenGL engine I built (garden_engine).
+
+Find it on itch.io: https://jackeverson.itch.io/round-and-ripe
+
 Feel free to build and test the program, I always appreciate feedback on how to improve. All external repos are included as submodules.
 
 Steps for building:
@@ -22,6 +26,11 @@ cmake --build ./build --parallel
 cmake -B build-release -S . -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXE_LINKER_FLAGS="-static"
 cmake --build build-release --parallel
 ```
+# Images
+<img src="demo_images/automation2.png">
+<img src="demo_images/turnips.png">
+<img src="demo_images/automation.png">
+<img src="demo_images/surprize.png">
 
 
 # Attributions 
