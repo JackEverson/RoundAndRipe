@@ -33,7 +33,7 @@
 
 # cmake
 build/
-build-windows/
+build-release/
 out/
 .vs
 .cache

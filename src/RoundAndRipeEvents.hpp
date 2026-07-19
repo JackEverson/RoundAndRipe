@@ -299,7 +299,7 @@ class EndEvent : public LineEvent {
         VoiceLine{"You have reached your final tier. The FOUR GODS OF ROUND acknowledge your existence", "meow_talk"},
         VoiceLine{"Barely.", "meow_sad"},
         VoiceLine{"Well I guess now you can go home and I keep the liver", "meow_talk"},
-        VoiceLine{"Oh did I say you go home OR I keep your ", "meow_angry"},
+        VoiceLine{"Oh did I say you go home OR I keep your liver", "meow_angry"},
         VoiceLine{"I always seem to mix them up", "meow_talk"},
         VoiceLine{"And by the way, this is your home now", "meow_talk"},
         },delta, 4.0f)) {
