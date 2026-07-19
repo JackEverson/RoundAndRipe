@@ -1,0 +1,39 @@
+# Round And Ripe
+
+Feel free to build and test the program, I always appreciate feedback on how to improve. All external repos are included as submodules.
+
+Steps for building:
+
+```bash
+git clone --recurse-submodules https://github.com/JackEverson/RoundAndRuthless.git
+cd RoundAndRuthless
+
+# linux
+cmake -B ./build -S .
+# windows
+cmake -B ./build -S . -G "MinGW Makefiles"
+
+cmake --build ./build --parallel
+
+
+# release build for windows
+cmake -B build-release -S . -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXE_LINKER_FLAGS="-static"
+cmake --build build-release --parallel
+```
+
+
+# Attributions 
+
+- gravel_floor.png, modified from [Monstera Production - pexels](https://www.pexels.com/photo/rough-gray-surface-with-stones-7794426/)
+- plaster_ceiling.png, modified from [Sasha Martynov - pexels](https://www.pexels.com/photo/white-wall-paint-1260727/)
+- concrete_wall.png, modified from [pexels](https://www.pexels.com)
+
+- ghost-scare-vintage.wav, modified from [onderwish - freesound](https://freesound.org/people/onderwish/sounds/457514/)
+- ambient-noise.ogg, modified from [patchytherat - freesound](https://freesound.org/people/patchytherat/sounds/535048/)
+- beep.wav, modified from [Breviceps - freesound](https://freesound.org/people/Breviceps/sounds/444492/)
+- fire_truck_bell-clean.wav, from [RemyMarshal - freesound](https://freesound.org/people/RemyMarshal/sounds/860385/)
+- big_dynamite_explode.ogg, modified from [felix.blume - freesound](https://freesound.org/people/felix.blume/sounds/475780/)
+- sugar_dig.wav, modified from [MrFossy - freesound](https://freesound.org/people/MrFossy/sounds/523276/)
+- eating.wav, from [harrisonlace - freesound](https://freesound.org/people/harrisonlace/sounds/771954/)
+- running_water_sink.wav, modified from [TSP-Talk - freesound](https://freesound.org/people/TSP-Talk/sounds/643039/)
+- pop.wav, from [quatricise - freesound](https://freesound.org/people/quatricise/sounds/789793/)
