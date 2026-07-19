@@ -5,14 +5,16 @@ Feel free to build and test the program, I always appreciate feedback on how to 
 Steps for building:
 
 ```bash
-git clone --recurse-submodules https://github.com/JackEverson/RoundAndRuthless.git
-cd RoundAndRuthless
+git clone --recurse-submodules https://github.com/JackEverson/RoundAndRipe.git
+cd RoundAndRipe
 
-# linux
-cmake -B ./build -S .
+
 # windows
 cmake -B ./build -S . -G "MinGW Makefiles"
+# linux
+cmake -B ./build -S .
 
+# Then build
 cmake --build ./build --parallel
 
 
@@ -27,7 +29,6 @@ cmake --build build-release --parallel
 - gravel_floor.png, modified from [Monstera Production - pexels](https://www.pexels.com/photo/rough-gray-surface-with-stones-7794426/)
 - concrete_wall.png, modified from [pexels](https://www.pexels.com)
 
-- ghost-scare-vintage.wav, modified from [onderwish - freesound](https://freesound.org/people/onderwish/sounds/457514/)
 - ambient-noise.ogg, modified from [patchytherat - freesound](https://freesound.org/people/patchytherat/sounds/535048/)
 - beep.wav, modified from [Breviceps - freesound](https://freesound.org/people/Breviceps/sounds/444492/)
 - fire_truck_bell-clean.wav, from [RemyMarshal - freesound](https://freesound.org/people/RemyMarshal/sounds/860385/)
@@ -36,3 +37,7 @@ cmake --build build-release --parallel
 - eating.wav, from [harrisonlace - freesound](https://freesound.org/people/harrisonlace/sounds/771954/)
 - running_water_sink.wav, modified from [TSP-Talk - freesound](https://freesound.org/people/TSP-Talk/sounds/643039/)
 - pop.wav, from [quatricise - freesound](https://freesound.org/people/quatricise/sounds/789793/)
+
+# AI disclosure 
+
+this project was made with the assistance of Claude Code (Anthropic Fable and Opus models), specifically for some coding and some lines of dialog.
